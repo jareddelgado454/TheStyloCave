@@ -1,9 +1,11 @@
+import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <h1 className="font-new-rocker text-7xl">Barber</h1>
+    <div className="w-full flex-1 flex flex-col bg-green-400">
+      <HeroSection />
+      <h1 className="text-white text-4xl">hijo d epvta</h1>
     </div>
   );
 }

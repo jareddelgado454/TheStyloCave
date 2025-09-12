@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import {  New_Rocker } from "next/font/google";
+import PrelineScriptWrapper from "@/components/PrelineScriptsWrapper";
 import "./globals.css";
 
 const newRocker = New_Rocker({
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body
         className={`${newRocker.variable} antialiased`}
       >
+        <PrelineScriptWrapper />
         {children}
       </body>
     </html>
