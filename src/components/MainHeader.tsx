@@ -6,10 +6,10 @@ export default function MainHeader() {
       <nav className="relative max-w-7xl w-full flex flex-wrap lg:grid lg:grid-cols-12 basis-full items-center px-4 md:px-6 lg:px-8 mx-auto">
         <div className="lg:col-span-3 flex items-center">
           <Image
-            src="/icons/logoBarber.png"
+            src="/icons/newlogoBarber.png"
             alt="Picture of the author"
-            width={100}
-            height={100}
+            width={70}
+            height={70}
           />
 
           <div className="ms-1 sm:ms-2"></div>
@@ -61,7 +61,7 @@ export default function MainHeader() {
           </button>
           <button
             type="button"
-            className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium text-nowrap rounded-xl border border-transparent bg-yellow-400 text-black hover:bg-yellow-500 focus:outline-hidden focus:bg-yellow-500 transition disabled:opacity-50 disabled:pointer-events-none"
+            className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium text-nowrap rounded-xl border border-transparent bg-cuak text-black hover:bg-yellow-500 focus:outline-hidden focus:bg-yellow-500 transition disabled:opacity-50 disabled:pointer-events-none"
           >
             Sign in
           </button>
