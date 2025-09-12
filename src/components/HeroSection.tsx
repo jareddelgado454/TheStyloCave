@@ -14,16 +14,16 @@ export default function HeroSection() {
             <div className="hs-carousel-slide">
               <div className="h-120 md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/images/heroImage.jpeg')] bg-cover bg-center bg-no-repeat">
                 <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-                  <span className="block text-white">Nike React</span>
-                  <span className="block text-white text-xl md:text-3xl">
-                    Rewriting sport's playbook for billions of athletes
+                  <span className="block text-white text-2xl font-montserrat font-extrabold">Barber Shop.</span>
+                  <span className="block text-white text-xl md:text-7xl font-new-rocker font-extrabold">
+                    The Stylo Cave 
                   </span>
                   <div className="mt-5">
                     <a
-                      className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+                      className="py-3 px-7 inline-flex items-center font-montserrat gap-x-2 text-xl font-medium rounded-3xl border-red-500 border-[5px] text-black"
                       href="#"
                     >
-                      Read Case Studies
+                      Averigua tu Estilo
                     </a>
                   </div>
                 </div>
