@@ -6,11 +6,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --cuak: #EDAB18;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-cuak: var(--cuak);
   --font-new-rocker : var(--font-new-rocker);
   --font-montserrat : var(--font-montserrat);
 }
