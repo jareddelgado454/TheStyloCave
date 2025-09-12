@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { LuScissors } from "react-icons/lu";
+import MainHeader from "./MainHeader";
 
 export default function HeroSection() {
   return (
-    <div className="">
+    <div className="relative">
+      <MainHeader/>
       <div
         data-hs-carousel='{
       "loadingClasses": "opacity-0"
