@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import {  New_Rocker } from "next/font/google";
+import {  New_Rocker, Montserrat } from "next/font/google";
 import PrelineScriptWrapper from "@/components/PrelineScriptsWrapper";
 import "./globals.css";
 
 const newRocker = New_Rocker({
   variable: "--font-new-rocker",
+  weight: '400',
+  subsets: ['latin'],
+})
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   weight: '400',
   subsets: ['latin'],
 })
@@ -22,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${newRocker.variable} antialiased`}
+        className={`${newRocker.variable}  ${montserrat.variable}antialiased`}
       >
         <PrelineScriptWrapper />
         {children}
