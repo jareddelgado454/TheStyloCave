@@ -23,7 +23,7 @@ export default function HeroSection() {
                   </span>
                   <div className="mt-5">
                     <a
-                      className="py-3 px-7 inline-flex items-center font-montserrat gap-x-2 text-xl font-medium rounded-3xl  text-black bg-cuak"
+                      className="py-3 px-7 inline-flex items-center font-montserrat gap-x-2 text-xl font-medium rounded-3xl  text-gray-950 bg-cuak"
                       href="#"
                     >
                       <LuScissors />

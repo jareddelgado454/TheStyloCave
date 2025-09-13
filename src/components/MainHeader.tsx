@@ -123,7 +123,7 @@ export default function MainHeader() {
                 href="#"
                 aria-current="page"
               >
-                Home
+                Inicio
               </a>
             </div>
             <div>
@@ -131,7 +131,7 @@ export default function MainHeader() {
                 className="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
                 href="#"
               >
-                Listings
+                Lista
               </a>
             </div>
             <div>
@@ -139,7 +139,7 @@ export default function MainHeader() {
                 className="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
                 href="#"
               >
-                Product
+                Productos
               </a>
             </div>
             <div>
@@ -147,7 +147,7 @@ export default function MainHeader() {
                 className="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
                 href="#"
               >
-                Checkout
+                Cambios
               </a>
             </div>
           </div>
