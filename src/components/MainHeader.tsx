@@ -6,7 +6,7 @@ export default function MainHeader() {
       <nav className="relative max-w-7xl w-full flex flex-wrap lg:grid lg:grid-cols-12 basis-full items-center px-4 md:px-6 lg:px-8 mx-auto">
         <div className="lg:col-span-3 flex items-center">
           <Image
-            src="/icons/newlogoBarber.png"
+            src="/icons/manuelBarber.png"
             alt="Picture of the author"
             width={70}
             height={70}
